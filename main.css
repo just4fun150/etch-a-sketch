@@ -1,0 +1,52 @@
+:root {
+    --colNum: 0;
+    --rowNum: 0;
+}
+
+body {
+    text-align: center;
+    background-color: #015668;
+}
+
+h1{
+font-size: 60px;
+color: #fff1cf;
+margin: .4em 0 .3em;
+}
+
+button {
+    cursor: pointer;
+    border:1px solid #fbc99d;
+    border-radius: 3%;
+    width: auto;
+    margin: 0 auto 1.5em;
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color:#ffb300;
+    color: #121e21;
+}
+
+button:hover{
+    box-shadow: 1px 1px 8px 1px #fbc99d; 
+}
+
+.grid-outer-container{
+    margin: auto;
+    width: 50%;
+    border: 40px solid #263f44;
+}
+
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(var(--colNum), 1fr);
+grid-template-rows: repeat(var(--rowNum), 1fr);
+width: auto;
+height: 520px;
+background-color:  #ffffff;
+}
+
+.divs {
+    border: 1px solid #404040;
+}
