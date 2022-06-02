@@ -8,5 +8,3 @@ TOP's etch-a-sketch project.
 - How to change and set CSS property with the `.setProperty` method.
 
 [Live Preview](https://just4fun150.github.io/etch-a-sketch/) 👀
-
-
